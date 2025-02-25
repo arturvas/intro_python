@@ -53,3 +53,8 @@ print(arquivo.colunas)
 print(arquivo.extrair_coluna(2))
 print(arquivo.extrair_linha(2))
 print(arquivo.extrair_linha(3))
+
+arquivo_pessoa = ArquivoCSV("info-pessoas.csv")
+
+education = arquivo_pessoa.extrair_coluna(3)
+print(education)
